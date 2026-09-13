@@ -1,0 +1,40 @@
+{
+  "projectId": "5ba4be66-8132-4b1b-9971-fae2aa4e2b6c",
+  "shape": "package",
+  "pkg": "crm_recruitment",
+  "globalName": "CrmRecruitment",
+  "srcDir": "components/ui",
+  "tsconfig": "tsconfig.json",
+  "cssEntry": ".design-sync/compiled.css",
+  "docsDir": ".design-sync/docs",
+  "extraEntries": [
+    "lucide-react"
+  ],
+  "overrides": {
+    "Dialog": {
+      "cardMode": "single",
+      "primaryStory": "RejectConfirmation",
+      "viewport": "640x440"
+    },
+    "DropdownMenu": {
+      "cardMode": "single",
+      "primaryStory": "CandidateActions",
+      "viewport": "560x400"
+    },
+    "Select": {
+      "cardMode": "single",
+      "primaryStory": "Open",
+      "viewport": "520x440"
+    },
+    "Table": {
+      "cardMode": "column"
+    },
+    "Input": {
+      "cardMode": "column"
+    },
+    "Tabs": {
+      "cardMode": "column"
+    }
+  },
+  "readmeHeader": ".design-sync/conventions.md"
+}

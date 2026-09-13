@@ -1,0 +1,12 @@
+/* brand fonts - mirrors next/font/google usage in app/layout.tsx (variable woff2, latin subset) */
+@font-face{font-family:'DM Sans';font-style:normal;font-weight:100 900;font-display:swap;src:url('./fonts/DMSans.woff2') format('woff2');}
+@font-face{font-family:'Noto Serif';font-style:normal;font-weight:100 900;font-display:swap;src:url('./fonts/NotoSerif.woff2') format('woff2');}
+@font-face{font-family:'Geist Mono';font-style:normal;font-weight:100 900;font-display:swap;src:url('./fonts/GeistMono.woff2') format('woff2');}
+@font-face{font-family:'Geist';font-style:normal;font-weight:100 900;font-display:swap;src:url('./fonts/Geist.woff2') format('woff2');}
+
+:root{
+  --font-sans:'DM Sans',ui-sans-serif,system-ui,sans-serif;
+  --font-heading:'Noto Serif',ui-serif,Georgia,serif;
+  --font-geist-sans:'Geist',ui-sans-serif,system-ui,sans-serif;
+  --font-geist-mono:'Geist Mono',ui-monospace,SFMono-Regular,monospace;
+}

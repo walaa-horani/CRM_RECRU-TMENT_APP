@@ -1,0 +1,14 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "./types",
+    "rootDir": "..",
+    "incremental": false,
+    "plugins": []
+  },
+  "include": ["../components/ui/**/*.tsx", "../lib/**/*.ts"],
+  "exclude": ["../node_modules", "../.next"]
+}
